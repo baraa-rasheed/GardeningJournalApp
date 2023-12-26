@@ -26,7 +26,7 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.gardenLogFragment)
         }
         binding.btnPlantDetails.setOnClickListener {
-            findNavController().navigate(R.id.btnPlantDetails)
+            findNavController().navigate(R.id.plantDetailsFragment)
         }
     }
 
